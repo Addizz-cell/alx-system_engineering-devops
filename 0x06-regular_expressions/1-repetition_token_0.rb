@@ -2,8 +2,8 @@
 
 input = ARGV[0]
 
-# Regular expression to match the word "School"
-regex = /School/
+# Regular expression to match the repetition token
+regex = /hb?tn/
 
 # Check if the input string matches the regular expression
 if input =~ regex
