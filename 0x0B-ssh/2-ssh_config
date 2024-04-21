@@ -1,0 +1,5 @@
+Host webserver
+    HostName 34.203.201.87
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
