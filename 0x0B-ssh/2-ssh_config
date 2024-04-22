@@ -1,5 +1,9 @@
-Host webserver
-    HostName 34.203.201.87
-    User ubuntu
+#!/usr/bin/env bash
+# SSH client configuration
+Host 34.203.201.87
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDeligateCredentials no
